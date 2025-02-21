@@ -17,6 +17,11 @@
   }
 }
 
+@layer components {
+  .container {
+    @apply container mx-auto transition-all duration-300;
+  }
+}
 
 @theme {
   --color-purple60: #703BF7;
@@ -38,4 +43,6 @@
   --color-white95: #F1F1F3;
   --color-white97: #F7F7F8;
   --color-white99: #FCFCFD;
+
+  --breakpoint-xs: 400px;
 }
