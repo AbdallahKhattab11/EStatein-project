@@ -1,7 +1,10 @@
+import DiscoverYourDreamProperty from "../../components/DiscoverYourDreamProperty/DiscoverYourDreamProperty"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <section className="Home">
+      <DiscoverYourDreamProperty />
+    </section>
   )
 }
 
