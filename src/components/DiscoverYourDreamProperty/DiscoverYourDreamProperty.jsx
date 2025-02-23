@@ -10,8 +10,8 @@ import bgAbstractForImg from '/src/assets/svg/Abstract-Design-discover-your-drea
 const DiscoverYourDreamProperty = () => {
   return (
     <div className="bg-gray8 pt-10 md:pt-0">
-      <div className="con flex flex-col-reverse px-4 xs2:px-8 md:flex-row md:px-0">
-        <div className="left md:p-5 md:flex md:flex-col md:justify-center md:gap-10">
+      <div className="con flex flex-col-reverse px-4 xs2:px-8 md:flex-row md:justify-center md:px-0">
+        <div className="left md:py-10 md:px-7  md:flex md:flex-col md:justify-center md:gap-10">
           <div className="titles">
             <h1 className="text-[clamp(28px,2.5vw,46px)] font-semibold text-white mb-4">
               Discover Your Dream <br /> Property With Estatein
