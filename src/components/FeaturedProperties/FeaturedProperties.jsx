@@ -78,7 +78,7 @@ const FeaturedProperties = () => {
             Featured Properties
           </h2>
           <div className="grid grid-cols-3">
-            <p className="col-span-3 md:col-span-2  text-gray60 text-[clamp(14px,2vw,16px)] font-medium">{`Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.`}</p>
+            <p className="col-span-3 md:col-span-2 leading-5 text-gray60 text-[clamp(14px,2vw,16px)] font-medium">{`Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.`}</p>
             <button
               type="button"
               className="hidden md:flex md:items-end md:justify-center justify-self-end self-center text-white text-[14px] text-nowrap cursor-pointer font-medium px-5 py-3.5 bg-gray10 border-1 border-gray15 rounded-lg w-[155px] h-[50px] "
