@@ -3,6 +3,7 @@ import LaptopLogo from "/src/assets/svg/Logo-Laptop.svg";
 import DesktopLogo from "/src/assets/svg/Logo-Desktop.svg";
 
 import { HiBars3BottomRight } from "react-icons/hi2";
+import { IoClose } from "react-icons/io5";
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
 const Navbar = () => {
@@ -35,12 +36,14 @@ const Navbar = () => {
         <div
           className={`${
             isMenuOpen ? "h-[280px]" : "h-0"
-          } overflow-hidden transition-all duration-300 text-[clamp(14px,2vw,18px)] font-medium pl-4 md:pl-0 absolute top-[68px] left-0 right-0 bg-gray19 flex flex-col justify-around  md:static md:h-full md:col-span-3 md:flex-row md:justify-around md:items-center  md:bg-transparent`}>
+          } overflow-hidden transition-all duration-300 text-[clamp(14px,2vw,18px)] font-medium pl-4 md:pl-0 absolute top-[68px] left-0 right-0 bg-gray19 flex flex-col justify-around  md:static md:h-full md:col-span-3 md:flex-row md:justify-around md:items-center  md:bg-transparent`}
+        >
           <div className="pages pt-5 md:pt-0">
             <ul className="flex flex-col gap-7 md:flex-row md:gap-0 text-nowrap">
               {pages.map((page, index) => (
                 <li key={index} className="inline-block">
                   <NavLink
+                  onClick={handleMenuClick}
                     to={`/${page.toLowerCase().split(" ").join("-")}`}
                     className={({ isActive }) =>
                       `${
@@ -59,6 +62,7 @@ const Navbar = () => {
           <div className="contact-us">
             <Link
               to="/contact-us"
+              onClick={handleMenuClick}
               className="text-white text-nowrap bg-gray8 rounded-lg border-2 border-gray15 px-4 py-2.5"
             >
               Contact Us
@@ -66,10 +70,14 @@ const Navbar = () => {
           </div>
         </div>
         <div className="menu justify-self-end md:hidden">
-          <HiBars3BottomRight
-            className="text-white text-3xl cursor-pointer"
-            onClick={handleMenuClick}
-          />
+          {isMenuOpen ? (
+            <IoClose className="text-white text-3xl cursor-pointer" onClick={handleMenuClick}/>
+          ) : (
+            <HiBars3BottomRight
+              className="text-white text-3xl cursor-pointer"
+              onClick={handleMenuClick}
+            />
+          )}
         </div>
       </div>
     </nav>
