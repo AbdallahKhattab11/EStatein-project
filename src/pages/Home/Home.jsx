@@ -1,6 +1,7 @@
 import DiscoverYourDreamProperty from "../../components/DiscoverYourDreamProperty/DiscoverYourDreamProperty"
 import FeaturedProperties from "../../components/FeaturedProperties/FeaturedProperties"
 import WhatOurClientsSay from "../../components/WhatOurClientsSay/WhatOurClientsSay"
+import FrequentlyAskedQuestions from "../../components/FrequentlyAskedQuestions/FrequentlyAskedQuestions"
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <DiscoverYourDreamProperty />
       <FeaturedProperties />
       <WhatOurClientsSay />
+      <FrequentlyAskedQuestions />
     </section>
   )
 }
