@@ -22,10 +22,10 @@ const DiscoverYourDreamProperty = () => {
             </p>
           </div>
           <div className="buttons my-10 md:my-0 md:flex md:gap-4">
-            <button type="button" className="text-white text-[14px] w-full mb-4 font-medium px-5 py-3.5 border-1 border-gray15 rounded-lg md:w-[150px] md:h-[50px]">
+            <button type="button" className="flex items-center justify-center text-white text-[14px] w-full mb-4 font-medium px-5 py-3.5 border-1 border-gray15 rounded-lg md:w-[150px] md:h-[50px]">
               <Link to="/about-us">Learn More</Link>
             </button>
-            <button type="button" className="text-white text-[14px] w-full font-medium px-5 py-3.5 bg-purple60 rounded-lg md:w-[150px] md:h-[50px] md:px-0">
+            <button type="button" className="flex items-center justify-center text-white text-[14px] w-full font-medium px-5 py-3.5 bg-purple60 rounded-lg md:w-[150px] md:h-[50px] md:px-0">
               <Link to="/properties">Browse Properties</Link>
             </button>
           </div>
