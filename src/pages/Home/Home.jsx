@@ -2,6 +2,7 @@ import DiscoverYourDreamProperty from "../../components/DiscoverYourDreamPropert
 import FeaturedProperties from "../../components/FeaturedProperties/FeaturedProperties"
 import WhatOurClientsSay from "../../components/WhatOurClientsSay/WhatOurClientsSay"
 import FrequentlyAskedQuestions from "../../components/FrequentlyAskedQuestions/FrequentlyAskedQuestions"
+import StartYourRealEstateJourney from "../../components/StartYourRealEstateJourney/StartYourRealEstateJourney"
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <FeaturedProperties />
       <WhatOurClientsSay />
       <FrequentlyAskedQuestions />
+      <StartYourRealEstateJourney />
     </section>
   )
 }
