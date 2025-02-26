@@ -6,15 +6,15 @@ const StartYourRealEstateJourney = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="StartYourRealEstateJourney relative bg-gray8 z-[-2] border-y-1 border-gray15">
+    <div className="StartYourRealEstateJourney relative bg-gray8 z-[0] border-y-1 border-gray15">
       <div className="container py-15 p-5 grid grid-cols-1 md:grid-cols-3 items-center gap-5 md:gap-0">
         <div
-          className="absolute left-0 top-0 h-full w-1/3 bg-cover bg-no-repeat bg-left text-gray19 z-[-1]"
+          className="absolute left-0 top-0 h-full md:w-1/2 w-full bg-cover bg-no-repeat bg-left text-gray19 z-[-1]"
           style={{ backgroundImage: `url(${leftImg})` }}
         ></div>
 
         <div
-          className="absolute right-0 top-0 h-full w-1/3 bg-cover bg-no-repeat bg-right z-[-1]"
+          className="hidden md:block absolute right-0 top-0 h-full md:w-1/2 bg-cover bg-no-repeat bg-right z-[-1]"
           style={{ backgroundImage: `url(${rightImg})` }}
         ></div>
 
