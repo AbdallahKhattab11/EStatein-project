@@ -4,6 +4,7 @@ import WhatOurClientsSay from "../../components/WhatOurClientsSay/WhatOurClients
 import FrequentlyAskedQuestions from "../../components/FrequentlyAskedQuestions/FrequentlyAskedQuestions"
 import StartYourRealEstateJourney from "../../components/StartYourRealEstateJourney/StartYourRealEstateJourney"
 import Footer from "../../components/Footer/Footer"
+import AllRightsSection from "../../components/AllRightsSection/AllRightsSection"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <FrequentlyAskedQuestions />
       <StartYourRealEstateJourney />
       <Footer />
+      <AllRightsSection />
     </section>
   )
 }
