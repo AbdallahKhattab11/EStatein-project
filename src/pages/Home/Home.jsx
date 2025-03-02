@@ -3,6 +3,7 @@ import FeaturedProperties from "../../components/FeaturedProperties/FeaturedProp
 import WhatOurClientsSay from "../../components/WhatOurClientsSay/WhatOurClientsSay"
 import FrequentlyAskedQuestions from "../../components/FrequentlyAskedQuestions/FrequentlyAskedQuestions"
 import StartYourRealEstateJourney from "../../components/StartYourRealEstateJourney/StartYourRealEstateJourney"
+import Footer from "../../components/Footer/Footer"
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <WhatOurClientsSay />
       <FrequentlyAskedQuestions />
       <StartYourRealEstateJourney />
+      <Footer />
     </section>
   )
 }
