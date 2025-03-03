@@ -1,8 +1,11 @@
+import OurJourney from "../../components/OurJourney/OurJourney"
 
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <section className="About-us">
+      <OurJourney />
+    </section>
   )
 }
 

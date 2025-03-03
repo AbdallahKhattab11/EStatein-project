@@ -11,12 +11,15 @@ const Navbar = () => {
   const pages = ["Home", "About Us", "Properties", "Services"];
 
   const handleMenuClick = () => {
-    setIsMenuOpen(!isMenuOpen);
+    if (window.innerWidth < 768) {
+      setIsMenuOpen(!isMenuOpen)
+    }
   };
+  
   return (
     <nav className="bg-gray19 h-[68px] md:h-[80px] relative">
       <div className="container grid grid-cols-2 md:grid-cols-4 items-center px-4 md:px-1 h-full ">
-        <div className="logo justify-self-start">
+        <div className="logo justify-self-start md:justify-self-center lg:justify-self-start">
           <img
             src={MobileLogo}
             alt="Logo"
@@ -43,7 +46,7 @@ const Navbar = () => {
               {pages.map((page, index) => (
                 <li key={index} className="inline-block">
                   <NavLink
-                  onClick={handleMenuClick}
+                    onClick={handleMenuClick}
                     to={`/${page.toLowerCase().split(" ").join("-")}`}
                     className={({ isActive }) =>
                       `${
