@@ -4,8 +4,7 @@ import OurAchievements from "../../components/OurAchievements/OurAchievements"
 import OurJourney from "../../components/OurJourney/OurJourney"
 import OurValuedClients from "../../components/OurValuedClients/OurValuedClients"
 import OurValues from "../../components/OurValues/OurValues"
-
-
+import FinnalFooter from "../../components/FinnalFooter/FinnalFooter"
 const AboutUs = () => {
   return (
     <section className="About-us">
@@ -15,6 +14,7 @@ const AboutUs = () => {
       <NavigatingTheEstateinExperience />
       <MeetTheEstateinTeam />
       <OurValuedClients />
+      <FinnalFooter />
     </section>
   )
 }
