@@ -10,7 +10,7 @@ const OurJourney = () => {
 
   return (
     <div className="bg-gray8 py-10 md:py-15">
-      <div className="container px-4 flex flex-col-reverse gap-8 md:gap-10 md:flex-row">
+      <div className="container px-4 flex flex-col-reverse gap-8 md:gap-10 md:flex-row md:items-center">
         <div className="left md:w-1/2 flex flex-col gap-10">
           <Titles h={h} p={p}/>
           <div className="boxes grid grid-cols-2 gap-3 text-center mb-10 md:mb-0 md:grid-cols-3">

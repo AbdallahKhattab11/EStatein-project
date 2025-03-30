@@ -1,8 +1,11 @@
+import FindYourDreamProperty from "../../components/FindYourDreamProperty/FindYourDreamProperty"
 
 
 const Properties = () => {
   return (
-    <div>Properties</div>
+    <section className="properties">
+      <FindYourDreamProperty />
+    </section>
   )
 }
 
