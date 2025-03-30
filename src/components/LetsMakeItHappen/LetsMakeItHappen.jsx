@@ -71,7 +71,7 @@ const LetsMakeItHappen = () => {
     },
   ];
   return (
-    <section className="bg-gray8 py-10">
+    <section className="bg-gray8 pt-10 pb-30">
       <div className="container px-4 flex flex-col gap-10">
         <div className="top">
           <Titles h={h} p={p} />
