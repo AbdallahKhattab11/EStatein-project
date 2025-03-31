@@ -39,7 +39,7 @@ const DiscoverAworldOfPossibilities = () => {
     {
       img: rusticRetreatImg,
       title: "Rustic Retreat Cottage",
-      desc: "An elegant 3-bedroom, 3-bathroom townhouse in a gated community thats awesome... Read More",
+      desc: "An elegant 3-bedroom, 3-bathroom townhouse in a gated community thats awesome...",
       properties: ["3-Bedroom", "3-Bathroom", "Villa"],
       propertiesIcons: [bedroomIcon, bathroomIcon, villaIcon],
     },
@@ -79,12 +79,7 @@ const DiscoverAworldOfPossibilities = () => {
           </h2>
           <div className="grid grid-cols-3">
             <p className="col-span-3 md:col-span-2 leading-5 text-gray60 text-[clamp(14px,2vw,16px)] font-medium">{`Our portfolio of properties is as diverse as your dreams. Explore the following categories to find the perfect property that resonates with your vision of home`}</p>
-            <button
-              type="button"
-              className="hidden md:flex md:items-end md:justify-center justify-self-end self-center text-white text-[14px] text-nowrap cursor-pointer font-medium px-5 py-3.5 bg-gray10 border-1 border-gray15 rounded-lg w-[155px] h-[50px] "
-            >
-              <Link to="/properties">View All Properties</Link>
-            </button>
+            
           </div>
         </div>
         <div className="pb-[30px] border-b-1 border-gray15">
@@ -105,15 +100,15 @@ const DiscoverAworldOfPossibilities = () => {
             }}
             spaceBetween={15}
             navigation={{ nextEl: ".custom-next", prevEl: ".custom-prev" }}
-            loop={true}
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            // loop={true}
+            // autoplay={{ delay: 3000, disableOnInteraction: false }}
             modules={[Navigation, Autoplay]}
             className="mySwiper"
           >
             {data.map(
               ({ img, title, desc, properties, propertiesIcons }, index) => {
                 return (
-                  <SwiperSlide key={index}>
+                  <SwiperSlide key={index} className=" ">
                     <FeaturedPropertiesSwiperSlide
                       img={img}
                       title={title}
@@ -127,13 +122,7 @@ const DiscoverAworldOfPossibilities = () => {
             )}
           </Swiper>
         </div>
-        <div className="mt-5 flex items-center justify-between md:justify-end">
-          <button
-            type="button"
-            className=" md:hidden flex items-end justify-center text-white text-[14px] text-nowrap cursor-pointer font-medium px-5 py-3.5 bg-gray10 border-1 border-gray15 rounded-lg w-[155px] h-[50px] "
-          >
-            <Link to="/properties">View All Properties</Link>
-          </button>
+        <div className="mt-5 flex items-center justify-end">
           <div className="flex gap-2.5 text-white text-2xl">
             <div className="custom-prev size-[44px] border-1 border-gray15 rounded-full flex justify-center items-center bg-gray10 cursor-pointer">
               <FaArrowLeft />

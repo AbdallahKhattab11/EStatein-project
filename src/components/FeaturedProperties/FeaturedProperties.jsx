@@ -113,7 +113,7 @@ const FeaturedProperties = () => {
             {data.map(
               ({ img, title, desc, properties, propertiesIcons }, index) => {
                 return (
-                  <SwiperSlide key={index}>
+                  <SwiperSlide key={index} >
                     <FeaturedPropertiesSwiperSlide
                       img={img}
                       title={title}

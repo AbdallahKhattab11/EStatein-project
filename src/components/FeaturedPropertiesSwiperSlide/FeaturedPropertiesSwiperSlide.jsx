@@ -48,7 +48,7 @@ const FeaturedPropertiesSwiperSlide = ({img,title, desc, properties ,propertiesI
               type="button"
               className="flex items-center justify-center text-white text-[12px] text-nowrap font-medium px-2 py-2 bg-purple60 rounded-md md:px-3 md:py-3 md:text-[14px]"
             >
-              <Link to="/properties">View Property Details</Link>
+              <Link to="/property-details">View Property Details</Link>
             </button>
           </div>
         </div>
