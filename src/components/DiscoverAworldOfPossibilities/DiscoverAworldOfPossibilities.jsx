@@ -100,8 +100,8 @@ const DiscoverAworldOfPossibilities = () => {
             }}
             spaceBetween={15}
             navigation={{ nextEl: ".custom-next", prevEl: ".custom-prev" }}
-            // loop={true}
-            // autoplay={{ delay: 3000, disableOnInteraction: false }}
+            loop={true}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
             modules={[Navigation, Autoplay]}
             className="mySwiper"
           >

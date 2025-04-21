@@ -1,9 +1,9 @@
-
+import ImgSlides from "../../components/ImgSlides/ImgSlides";
 
 const PropertyDetails = () => {
   return (
-    <section className="bg-gray10 text-white">
-      this is property details page
+    <section className="bg-gray8 text-white h-screen">
+      <ImgSlides />
     </section>
   )
 }

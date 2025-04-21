@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import TopBanner from "./components/TopBanner/TopBanner";
-import PropertyDetails from "./pages/PropertyDetails/PropertyDetails";
+
 // Lazy load components for better performance
 const Home = lazy(() => import("./pages/Home/Home"));
 const AboutUs = lazy(() => import("./pages/AboutUs/AboutUs"));
