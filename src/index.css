@@ -67,3 +67,7 @@
 .custom-pagination .swiper-pagination-bullet-active {
   @apply bg-purple60 rounded-2xl;
 }
+
+.beforeElement {
+  @apply relative before:content-[''] before:absolute before:inset-0 before:left-0 before:w-[2px] before:h-full  before:bg-purple60  
+}
