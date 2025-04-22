@@ -5,7 +5,7 @@ const ComprehensivePricingDetails = () => {
   const p =
     "At Estatein, transparency is key. We want you to have a clear understanding of all costs associated with your property investment. Below, we break down the pricing for Seaside Serenity Villa to help you make an informed decision";
   return (
-    <section className="bg-gray8 py-10 md:py-15">
+    <section className="bg-gray8 py-10 ">
       <div className="container px-4">
         <div className="titles mb-10">
           <Titles h={h} p={p} />

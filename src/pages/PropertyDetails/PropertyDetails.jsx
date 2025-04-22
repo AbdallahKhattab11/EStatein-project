@@ -2,6 +2,7 @@ import ImgSlides from "../../components/ImgSlides/ImgSlides";
 import KeyFeaturesAndAmenities from "../../components/KeyFeaturesAndAmenities/KeyFeaturesAndAmenities";
 import InquireAboutSeaside from "../../components/InquireAboutSeaside/InquireAboutSeaside";
 import ComprehensivePricingDetails from "../../components/ComprehensivePricingDetails/ComprehensivePricingDetails";
+import FrequentlyAskedQuestions from "../../components/FrequentlyAskedQuestions/FrequentlyAskedQuestions";
 
 const PropertyDetails = () => {
   return (
@@ -10,6 +11,7 @@ const PropertyDetails = () => {
       <KeyFeaturesAndAmenities />
       <InquireAboutSeaside />
       <ComprehensivePricingDetails />
+      <FrequentlyAskedQuestions />
     </section>
   )
 }
