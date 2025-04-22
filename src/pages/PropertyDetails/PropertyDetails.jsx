@@ -3,6 +3,7 @@ import KeyFeaturesAndAmenities from "../../components/KeyFeaturesAndAmenities/Ke
 import InquireAboutSeaside from "../../components/InquireAboutSeaside/InquireAboutSeaside";
 import ComprehensivePricingDetails from "../../components/ComprehensivePricingDetails/ComprehensivePricingDetails";
 import FrequentlyAskedQuestions from "../../components/FrequentlyAskedQuestions/FrequentlyAskedQuestions";
+import FinnalFooter from "../../components/FinnalFooter/FinnalFooter";
 
 const PropertyDetails = () => {
   return (
@@ -12,6 +13,7 @@ const PropertyDetails = () => {
       <InquireAboutSeaside />
       <ComprehensivePricingDetails />
       <FrequentlyAskedQuestions />
+      <FinnalFooter />
     </section>
   )
 }
