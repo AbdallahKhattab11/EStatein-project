@@ -8,7 +8,7 @@ const Titles = ({h,p}) => {
       <h1 className="text-white text-[clamp(28px,2vw,48px)] font-semibold mb-5 leading-11">
         {h}
       </h1>
-      <p className="text-gray60 font-medium text-[clamp(14px,2vw,18px)] leading-6">
+      <p className="text-gray60 font-medium text-[clamp(14px,2vw,18px)] leading-7">
         {p}
       </p>
     </div>
