@@ -2,6 +2,7 @@ import ElevateYourRealEstateExperience from "../../components/ElevateYourRealEst
 import UnlockPropertyValue from "../../components/UnlockPropertyValue/UnlockPropertyValue"
 import EffortlessPropertyManagement from "../../components/EffortlessPropertyManagement/EffortlessPropertyManagement"
 import SmartInvestmentsInformedDecisions from "../../components/SmartInvestmentsInformedDecisions/SmartInvestmentsInformedDecisions"
+import FinnalFooter from "../../components/FinnalFooter/FinnalFooter"
 
 const Services = () => {
   return (
@@ -10,6 +11,7 @@ const Services = () => {
       <UnlockPropertyValue />
       <EffortlessPropertyManagement />
       <SmartInvestmentsInformedDecisions />
+      <FinnalFooter />
     </div>
   )
 }
