@@ -1,7 +1,10 @@
+import GetInTouchWithEstateinHero from "../../components/GetInTouchWithEstateinHero/GetInTouchWithEstateinHero"
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
+    <div className="ContactUs bg-gray8 text-white ">
+      <GetInTouchWithEstateinHero />
+    </div>
   )
 }
 
